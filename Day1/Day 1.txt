@@ -1,3 +1,8 @@
+//Day 1 Assignment Answer 
+//Name   : Edward
+//Email  : sulistijonoedward@gmail.com
+//Course : Data Structures and Algorithm
+
 Question 1:
 for(i=1 ; i <= n; i++){
 	for(j=i; j <= n;j++){
