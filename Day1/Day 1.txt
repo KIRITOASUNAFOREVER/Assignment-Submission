@@ -1,0 +1,24 @@
+Question 1:
+for(i=1 ; i <= n; i++){
+	for(j=i; j <= n;j++){
+		printf("Hi");
+	}
+}
+
+Explanation:
+This nested loop is printing "Hi",it will do it for the number of times of outer loop, which itself runs for n length. hence, it will do the work for 1 + 2 + 3 + .....n times, which becomes n*(n+1)/2 times. Hence, it will simply be O(n^2).
+
+Answer for Question 1:
+So the time complexity will be O(n^2).
+
+Question 2:
+for(i=1; i<=n ;i*=3){
+	for(j=1; j<=n ;j++){
+		printf("Hello");
+	}
+}
+Explanation:
+there are two loops which are present. The first loop in the code snippet, the loop variable is multiplied by a constant value and hence the time complexity of the first loop is of O(log n). The second loop in the code snippet, the loop variable is increamented with a constant amount and hence the time complexity of the second loop is of O(n).
+
+Answer for Question 2:
+So the time complexity will be O(n*log n).
